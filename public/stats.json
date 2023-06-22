@@ -1,0 +1,2716 @@
+{
+  "hash": "f76da28c14bac7f7",
+  "time": 160,
+  "builtAt": 1687441913259,
+  "publicPath": "auto",
+  "outputPath": "./public",
+  "assets": [
+    {
+      "type": "asset",
+      "name": "vendor.js",
+      "size": 178362,
+      "chunks": [
+        "vendor"
+      ],
+      "chunkNames": [
+        "vendor"
+      ],
+      "info": {
+        "development": false,
+        "hotModuleReplacement": false
+      },
+      "emitted": true
+    },
+    {
+      "type": "asset",
+      "name": "main.js",
+      "size": 6944,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "development": false,
+        "hotModuleReplacement": false
+      },
+      "emitted": true
+    },
+    {
+      "type": "asset",
+      "name": "node_modules_web-vitals_dist_web-vitals_js.js",
+      "size": 4719,
+      "chunks": [
+        "node_modules_web-vitals_dist_web-vitals_js"
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": false,
+        "hotModuleReplacement": false
+      },
+      "emitted": true
+    },
+    {
+      "type": "asset",
+      "name": "main.css",
+      "size": 786,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "development": false,
+        "hotModuleReplacement": false
+      },
+      "emitted": true
+    }
+  ],
+  "assetsByChunkName": {
+    "main": [
+      "main.css",
+      "main.js"
+    ],
+    "vendor": [
+      "vendor.js"
+    ]
+  },
+  "chunks": [
+    {
+      "type": "chunk",
+      "files": [
+        "main.css",
+        "main.js"
+      ],
+      "id": "main",
+      "entry": true,
+      "initial": true,
+      "names": [
+        "main"
+      ],
+      "size": 2881,
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "css",
+          "identifier": "css|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.css",
+          "name": "./src/App.css",
+          "id": "78",
+          "chunks": [
+            "main"
+          ],
+          "size": 1,
+          "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+          "issuerName": "./src/App.jsx",
+          "issuerId": "576",
+          "issuerPath": [
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "name": "./src/index.jsx",
+              "id": "97"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+              "name": "./src/App.jsx",
+              "id": "576"
+            }
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+              "moduleName": "./src/App.jsx",
+              "moduleId": "576",
+              "type": "esm import",
+              "userRequest": "./App.css"
+            }
+          ],
+          "assets": []
+        },
+        {
+          "type": "module",
+          "moduleType": "javascriptx",
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+          "name": "./src/App.jsx",
+          "id": "576",
+          "chunks": [
+            "main"
+          ],
+          "size": 1020,
+          "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "issuerName": "./src/index.jsx",
+          "issuerId": "97",
+          "issuerPath": [
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "name": "./src/index.jsx",
+              "id": "97"
+            }
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "moduleName": "./src/index.jsx",
+              "moduleId": "97",
+              "type": "esm import",
+              "userRequest": "./App"
+            }
+          ],
+          "assets": []
+        },
+        {
+          "type": "module",
+          "moduleType": "css",
+          "identifier": "css|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.css",
+          "name": "./src/index.css",
+          "id": "54",
+          "chunks": [
+            "main"
+          ],
+          "size": 1,
+          "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "issuerName": "./src/index.jsx",
+          "issuerId": "97",
+          "issuerPath": [
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "name": "./src/index.jsx",
+              "id": "97"
+            }
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "moduleName": "./src/index.jsx",
+              "moduleId": "97",
+              "type": "esm import",
+              "userRequest": "./index.css"
+            }
+          ],
+          "assets": []
+        },
+        {
+          "type": "module",
+          "moduleType": "javascriptx",
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97",
+          "chunks": [
+            "main"
+          ],
+          "size": 567,
+          "issuerPath": [],
+          "reasons": [
+            {
+              "type": "entry",
+              "userRequest": "./src/index.jsx"
+            }
+          ],
+          "assets": []
+        },
+        {
+          "type": "module",
+          "moduleType": "javascriptx",
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\reportWebVitals.js",
+          "name": "./src/reportWebVitals.js",
+          "id": "500",
+          "chunks": [
+            "main"
+          ],
+          "size": 362,
+          "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "issuerName": "./src/index.jsx",
+          "issuerId": "97",
+          "issuerPath": [
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "name": "./src/index.jsx",
+              "id": "97"
+            }
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "moduleName": "./src/index.jsx",
+              "moduleId": "97",
+              "type": "esm import",
+              "userRequest": "./reportWebVitals"
+            }
+          ],
+          "assets": []
+        }
+      ],
+      "parents": [],
+      "children": [
+        "node_modules_web-vitals_dist_web-vitals_js"
+      ],
+      "siblings": [
+        "vendor"
+      ]
+    },
+    {
+      "type": "chunk",
+      "files": [
+        "node_modules_web-vitals_dist_web-vitals_js.js"
+      ],
+      "id": "node_modules_web-vitals_dist_web-vitals_js",
+      "entry": false,
+      "initial": false,
+      "names": [],
+      "size": 4355,
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascriptx",
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\web-vitals\\dist\\web-vitals.js",
+          "name": "./node_modules/web-vitals/dist/web-vitals.js",
+          "id": "819",
+          "chunks": [
+            "node_modules_web-vitals_dist_web-vitals_js"
+          ],
+          "size": 4355,
+          "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\reportWebVitals.js",
+          "issuerName": "./src/reportWebVitals.js",
+          "issuerId": "500",
+          "issuerPath": [
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "name": "./src/index.jsx",
+              "id": "97"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\reportWebVitals.js",
+              "name": "./src/reportWebVitals.js",
+              "id": "500"
+            }
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\reportWebVitals.js",
+              "moduleName": "./src/reportWebVitals.js",
+              "moduleId": "500",
+              "type": "dynamic import",
+              "userRequest": "web-vitals"
+            }
+          ],
+          "assets": []
+        }
+      ],
+      "parents": [
+        "main",
+        "vendor"
+      ],
+      "children": [],
+      "siblings": []
+    },
+    {
+      "type": "chunk",
+      "files": [
+        "vendor.js"
+      ],
+      "id": "vendor",
+      "entry": false,
+      "initial": true,
+      "names": [
+        "vendor"
+      ],
+      "size": 220891,
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascriptx",
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react\\index.js",
+          "name": "./node_modules/react/index.js",
+          "id": "490",
+          "chunks": [
+            "vendor"
+          ],
+          "size": 190,
+          "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "issuerName": "./src/index.jsx",
+          "issuerId": "97",
+          "issuerPath": [
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "name": "./src/index.jsx",
+              "id": "97"
+            }
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+              "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "moduleId": "281",
+              "type": "cjs require",
+              "userRequest": "react"
+            },
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react\\cjs\\react-jsx-runtime.production.min.js",
+              "moduleName": "./node_modules/react/cjs/react-jsx-runtime.production.min.js",
+              "moduleId": "948",
+              "type": "cjs require",
+              "userRequest": "react"
+            },
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+              "moduleName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+              "moduleId": "352",
+              "type": "esm import",
+              "userRequest": "react"
+            },
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+              "moduleName": "./src/App.jsx",
+              "moduleId": "576",
+              "type": "esm import",
+              "userRequest": "react"
+            },
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "moduleName": "./src/index.jsx",
+              "moduleId": "97",
+              "type": "esm import",
+              "userRequest": "react"
+            }
+          ],
+          "assets": []
+        },
+        {
+          "type": "module",
+          "moduleType": "javascriptx",
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+          "name": "./node_modules/stylis/index.js",
+          "id": "390",
+          "chunks": [
+            "vendor"
+          ],
+          "size": 236,
+          "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+          "issuerName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "issuerId": "352",
+          "issuerPath": [
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "name": "./src/index.jsx",
+              "id": "97"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+              "name": "./src/App.jsx",
+              "id": "576"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+              "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+              "id": "352"
+            }
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+              "moduleName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+              "moduleId": "352",
+              "type": "esm import",
+              "userRequest": "stylis"
+            }
+          ],
+          "assets": []
+        },
+        {
+          "type": "module",
+          "moduleType": "javascriptx",
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\index.js",
+          "name": "./node_modules/react-dom/index.js",
+          "id": "685",
+          "chunks": [
+            "vendor"
+          ],
+          "size": 1363,
+          "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\client.js",
+          "issuerName": "./node_modules/react-dom/client.js",
+          "issuerId": "22",
+          "issuerPath": [
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "name": "./src/index.jsx",
+              "id": "97"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\client.js",
+              "name": "./node_modules/react-dom/client.js",
+              "id": "22"
+            }
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\client.js",
+              "moduleName": "./node_modules/react-dom/client.js",
+              "moduleId": "22",
+              "type": "cjs require",
+              "userRequest": "react-dom"
+            }
+          ],
+          "assets": []
+        },
+        {
+          "type": "module",
+          "moduleType": "javascriptx",
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\scheduler\\index.js",
+          "name": "./node_modules/scheduler/index.js",
+          "id": "395",
+          "chunks": [
+            "vendor"
+          ],
+          "size": 198,
+          "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+          "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuerId": "281",
+          "issuerPath": [
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "name": "./src/index.jsx",
+              "id": "97"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\client.js",
+              "name": "./node_modules/react-dom/client.js",
+              "id": "22"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\index.js",
+              "name": "./node_modules/react-dom/index.js",
+              "id": "685"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+              "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "id": "281"
+            }
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+              "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "moduleId": "281",
+              "type": "cjs require",
+              "userRequest": "scheduler"
+            }
+          ],
+          "assets": []
+        },
+        {
+          "type": "module",
+          "moduleType": "javascriptx",
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Enum.js",
+          "name": "./node_modules/stylis/src/Enum.js",
+          "id": "589",
+          "chunks": [
+            "vendor"
+          ],
+          "size": 623,
+          "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+          "issuerName": "./node_modules/stylis/index.js",
+          "issuerId": "390",
+          "issuerPath": [
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "name": "./src/index.jsx",
+              "id": "97"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+              "name": "./src/App.jsx",
+              "id": "576"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+              "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+              "id": "352"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+              "name": "./node_modules/stylis/index.js",
+              "id": "390"
+            }
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+              "moduleName": "./node_modules/stylis/index.js",
+              "moduleId": "390",
+              "type": "esm export",
+              "userRequest": "./src/Enum.js"
+            },
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Middleware.js",
+              "moduleName": "./node_modules/stylis/src/Middleware.js",
+              "moduleId": "123",
+              "type": "esm import",
+              "userRequest": "./Enum.js"
+            },
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Parser.js",
+              "moduleName": "./node_modules/stylis/src/Parser.js",
+              "moduleId": "598",
+              "type": "esm import",
+              "userRequest": "./Enum.js"
+            },
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Prefixer.js",
+              "moduleName": "./node_modules/stylis/src/Prefixer.js",
+              "moduleId": "645",
+              "type": "esm import",
+              "userRequest": "./Enum.js"
+            },
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Serializer.js",
+              "moduleName": "./node_modules/stylis/src/Serializer.js",
+              "moduleId": "466",
+              "type": "esm import",
+              "userRequest": "./Enum.js"
+            }
+          ],
+          "assets": []
+        },
+        {
+          "type": "module",
+          "moduleType": "javascriptx",
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\client.js",
+          "name": "./node_modules/react-dom/client.js",
+          "id": "22",
+          "chunks": [
+            "vendor"
+          ],
+          "size": 619,
+          "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "issuerName": "./src/index.jsx",
+          "issuerId": "97",
+          "issuerPath": [
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "name": "./src/index.jsx",
+              "id": "97"
+            }
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "moduleName": "./src/index.jsx",
+              "moduleId": "97",
+              "type": "esm import",
+              "userRequest": "react-dom/client"
+            }
+          ],
+          "assets": []
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/esm",
+          "identifier": "javascript/esm|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\tslib\\tslib.es6.mjs",
+          "name": "./node_modules/tslib/tslib.es6.mjs",
+          "id": "647",
+          "chunks": [
+            "vendor"
+          ],
+          "size": 14546,
+          "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+          "issuerName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "issuerId": "352",
+          "issuerPath": [
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "name": "./src/index.jsx",
+              "id": "97"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+              "name": "./src/App.jsx",
+              "id": "576"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+              "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+              "id": "352"
+            }
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+              "moduleName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+              "moduleId": "352",
+              "type": "esm import",
+              "userRequest": "tslib"
+            }
+          ],
+          "assets": []
+        },
+        {
+          "type": "module",
+          "moduleType": "javascriptx",
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react\\jsx-runtime.js",
+          "name": "./node_modules/react/jsx-runtime.js",
+          "id": "192",
+          "chunks": [
+            "vendor"
+          ],
+          "size": 214,
+          "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "issuerName": "./src/index.jsx",
+          "issuerId": "97",
+          "issuerPath": [
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "name": "./src/index.jsx",
+              "id": "97"
+            }
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+              "moduleName": "./src/App.jsx",
+              "moduleId": "576",
+              "type": "esm import",
+              "userRequest": "react/jsx-runtime"
+            },
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "moduleName": "./src/index.jsx",
+              "moduleId": "97",
+              "type": "esm import",
+              "userRequest": "react/jsx-runtime"
+            }
+          ],
+          "assets": []
+        },
+        {
+          "type": "module",
+          "moduleType": "javascriptx",
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Parser.js",
+          "name": "./node_modules/stylis/src/Parser.js",
+          "id": "598",
+          "chunks": [
+            "vendor"
+          ],
+          "size": 5718,
+          "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+          "issuerName": "./node_modules/stylis/index.js",
+          "issuerId": "390",
+          "issuerPath": [
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "name": "./src/index.jsx",
+              "id": "97"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+              "name": "./src/App.jsx",
+              "id": "576"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+              "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+              "id": "352"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+              "name": "./node_modules/stylis/index.js",
+              "id": "390"
+            }
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+              "moduleName": "./node_modules/stylis/index.js",
+              "moduleId": "390",
+              "type": "esm export",
+              "userRequest": "./src/Parser.js"
+            }
+          ],
+          "assets": []
+        },
+        {
+          "type": "module",
+          "moduleType": "javascriptx",
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\shallowequal\\index.js",
+          "name": "./node_modules/shallowequal/index.js",
+          "id": "572",
+          "chunks": [
+            "vendor"
+          ],
+          "size": 979,
+          "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+          "issuerName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "issuerId": "352",
+          "issuerPath": [
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "name": "./src/index.jsx",
+              "id": "97"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+              "name": "./src/App.jsx",
+              "id": "576"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+              "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+              "id": "352"
+            }
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+              "moduleName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+              "moduleId": "352",
+              "type": "esm import",
+              "userRequest": "shallowequal"
+            }
+          ],
+          "assets": []
+        },
+        {
+          "type": "module",
+          "moduleType": "javascriptx",
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Utility.js",
+          "name": "./node_modules/stylis/src/Utility.js",
+          "id": "763",
+          "chunks": [
+            "vendor"
+          ],
+          "size": 2055,
+          "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+          "issuerName": "./node_modules/stylis/index.js",
+          "issuerId": "390",
+          "issuerPath": [
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "name": "./src/index.jsx",
+              "id": "97"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+              "name": "./src/App.jsx",
+              "id": "576"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+              "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+              "id": "352"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+              "name": "./node_modules/stylis/index.js",
+              "id": "390"
+            }
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+              "moduleName": "./node_modules/stylis/index.js",
+              "moduleId": "390",
+              "type": "esm export",
+              "userRequest": "./src/Utility.js"
+            },
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Middleware.js",
+              "moduleName": "./node_modules/stylis/src/Middleware.js",
+              "moduleId": "123",
+              "type": "esm import",
+              "userRequest": "./Utility.js"
+            },
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Parser.js",
+              "moduleName": "./node_modules/stylis/src/Parser.js",
+              "moduleId": "598",
+              "type": "esm import",
+              "userRequest": "./Utility.js"
+            },
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Prefixer.js",
+              "moduleName": "./node_modules/stylis/src/Prefixer.js",
+              "moduleId": "645",
+              "type": "esm import",
+              "userRequest": "./Utility.js"
+            },
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Serializer.js",
+              "moduleName": "./node_modules/stylis/src/Serializer.js",
+              "moduleId": "466",
+              "type": "esm import",
+              "userRequest": "./Utility.js"
+            },
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Tokenizer.js",
+              "moduleName": "./node_modules/stylis/src/Tokenizer.js",
+              "moduleId": "325",
+              "type": "esm import",
+              "userRequest": "./Utility.js"
+            }
+          ],
+          "assets": []
+        },
+        {
+          "type": "module",
+          "moduleType": "javascriptx",
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Prefixer.js",
+          "name": "./node_modules/stylis/src/Prefixer.js",
+          "id": "645",
+          "chunks": [
+            "vendor"
+          ],
+          "size": 6518,
+          "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+          "issuerName": "./node_modules/stylis/index.js",
+          "issuerId": "390",
+          "issuerPath": [
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "name": "./src/index.jsx",
+              "id": "97"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+              "name": "./src/App.jsx",
+              "id": "576"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+              "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+              "id": "352"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+              "name": "./node_modules/stylis/index.js",
+              "id": "390"
+            }
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+              "moduleName": "./node_modules/stylis/index.js",
+              "moduleId": "390",
+              "type": "esm export",
+              "userRequest": "./src/Prefixer.js"
+            },
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Middleware.js",
+              "moduleName": "./node_modules/stylis/src/Middleware.js",
+              "moduleId": "123",
+              "type": "esm import",
+              "userRequest": "./Prefixer.js"
+            }
+          ],
+          "assets": []
+        },
+        {
+          "type": "module",
+          "moduleType": "javascriptx",
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Tokenizer.js",
+          "name": "./node_modules/stylis/src/Tokenizer.js",
+          "id": "325",
+          "chunks": [
+            "vendor"
+          ],
+          "size": 4723,
+          "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+          "issuerName": "./node_modules/stylis/index.js",
+          "issuerId": "390",
+          "issuerPath": [
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "name": "./src/index.jsx",
+              "id": "97"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+              "name": "./src/App.jsx",
+              "id": "576"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+              "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+              "id": "352"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+              "name": "./node_modules/stylis/index.js",
+              "id": "390"
+            }
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+              "moduleName": "./node_modules/stylis/index.js",
+              "moduleId": "390",
+              "type": "esm export",
+              "userRequest": "./src/Tokenizer.js"
+            },
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Middleware.js",
+              "moduleName": "./node_modules/stylis/src/Middleware.js",
+              "moduleId": "123",
+              "type": "esm import",
+              "userRequest": "./Tokenizer.js"
+            },
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Parser.js",
+              "moduleName": "./node_modules/stylis/src/Parser.js",
+              "moduleId": "598",
+              "type": "esm import",
+              "userRequest": "./Tokenizer.js"
+            }
+          ],
+          "assets": []
+        },
+        {
+          "type": "module",
+          "moduleType": "javascriptx",
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Middleware.js",
+          "name": "./node_modules/stylis/src/Middleware.js",
+          "id": "123",
+          "chunks": [
+            "vendor"
+          ],
+          "size": 3113,
+          "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+          "issuerName": "./node_modules/stylis/index.js",
+          "issuerId": "390",
+          "issuerPath": [
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "name": "./src/index.jsx",
+              "id": "97"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+              "name": "./src/App.jsx",
+              "id": "576"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+              "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+              "id": "352"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+              "name": "./node_modules/stylis/index.js",
+              "id": "390"
+            }
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+              "moduleName": "./node_modules/stylis/index.js",
+              "moduleId": "390",
+              "type": "esm export",
+              "userRequest": "./src/Middleware.js"
+            }
+          ],
+          "assets": []
+        },
+        {
+          "type": "module",
+          "moduleType": "javascriptx",
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Serializer.js",
+          "name": "./node_modules/stylis/src/Serializer.js",
+          "id": "466",
+          "chunks": [
+            "vendor"
+          ],
+          "size": 1119,
+          "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+          "issuerName": "./node_modules/stylis/index.js",
+          "issuerId": "390",
+          "issuerPath": [
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "name": "./src/index.jsx",
+              "id": "97"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+              "name": "./src/App.jsx",
+              "id": "576"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+              "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+              "id": "352"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+              "name": "./node_modules/stylis/index.js",
+              "id": "390"
+            }
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+              "moduleName": "./node_modules/stylis/index.js",
+              "moduleId": "390",
+              "type": "esm export",
+              "userRequest": "./src/Serializer.js"
+            },
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Middleware.js",
+              "moduleName": "./node_modules/stylis/src/Middleware.js",
+              "moduleId": "123",
+              "type": "esm import",
+              "userRequest": "./Serializer.js"
+            }
+          ],
+          "assets": []
+        },
+        {
+          "type": "module",
+          "moduleType": "javascriptx",
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react\\cjs\\react.production.min.js",
+          "name": "./node_modules/react/cjs/react.production.min.js",
+          "id": "365",
+          "chunks": [
+            "vendor"
+          ],
+          "size": 6913,
+          "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react\\index.js",
+          "issuerName": "./node_modules/react/index.js",
+          "issuerId": "490",
+          "issuerPath": [
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "name": "./src/index.jsx",
+              "id": "97"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react\\index.js",
+              "name": "./node_modules/react/index.js",
+              "id": "490"
+            }
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react\\index.js",
+              "moduleName": "./node_modules/react/index.js",
+              "moduleId": "490",
+              "type": "cjs require",
+              "userRequest": "./cjs/react.production.min.js"
+            }
+          ],
+          "assets": []
+        },
+        {
+          "type": "module",
+          "moduleType": "javascriptx",
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "id": "281",
+          "chunks": [
+            "vendor"
+          ],
+          "size": 131737,
+          "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\index.js",
+          "issuerName": "./node_modules/react-dom/index.js",
+          "issuerId": "685",
+          "issuerPath": [
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "name": "./src/index.jsx",
+              "id": "97"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\client.js",
+              "name": "./node_modules/react-dom/client.js",
+              "id": "22"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\index.js",
+              "name": "./node_modules/react-dom/index.js",
+              "id": "685"
+            }
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\index.js",
+              "moduleName": "./node_modules/react-dom/index.js",
+              "moduleId": "685",
+              "type": "cjs require",
+              "userRequest": "./cjs/react-dom.production.min.js"
+            }
+          ],
+          "assets": []
+        },
+        {
+          "type": "module",
+          "moduleType": "javascriptx",
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\scheduler\\cjs\\scheduler.production.min.js",
+          "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "id": "366",
+          "chunks": [
+            "vendor"
+          ],
+          "size": 4235,
+          "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\scheduler\\index.js",
+          "issuerName": "./node_modules/scheduler/index.js",
+          "issuerId": "395",
+          "issuerPath": [
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "name": "./src/index.jsx",
+              "id": "97"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\client.js",
+              "name": "./node_modules/react-dom/client.js",
+              "id": "22"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\index.js",
+              "name": "./node_modules/react-dom/index.js",
+              "id": "685"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+              "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "id": "281"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\scheduler\\index.js",
+              "name": "./node_modules/scheduler/index.js",
+              "id": "395"
+            }
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\scheduler\\index.js",
+              "moduleName": "./node_modules/scheduler/index.js",
+              "moduleId": "395",
+              "type": "cjs require",
+              "userRequest": "./cjs/scheduler.production.min.js"
+            }
+          ],
+          "assets": []
+        },
+        {
+          "type": "module",
+          "moduleType": "javascriptx",
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\@emotion\\memoize\\dist\\emotion-memoize.esm.js",
+          "name": "./node_modules/@emotion/memoize/dist/emotion-memoize.esm.js",
+          "id": "702",
+          "chunks": [
+            "vendor"
+          ],
+          "size": 202,
+          "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\@emotion\\is-prop-valid\\dist\\emotion-is-prop-valid.esm.js",
+          "issuerName": "./node_modules/@emotion/is-prop-valid/dist/emotion-is-prop-valid.esm.js",
+          "issuerId": "117",
+          "issuerPath": [
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "name": "./src/index.jsx",
+              "id": "97"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+              "name": "./src/App.jsx",
+              "id": "576"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+              "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+              "id": "352"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\@emotion\\is-prop-valid\\dist\\emotion-is-prop-valid.esm.js",
+              "name": "./node_modules/@emotion/is-prop-valid/dist/emotion-is-prop-valid.esm.js",
+              "id": "117"
+            }
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\@emotion\\is-prop-valid\\dist\\emotion-is-prop-valid.esm.js",
+              "moduleName": "./node_modules/@emotion/is-prop-valid/dist/emotion-is-prop-valid.esm.js",
+              "moduleId": "117",
+              "type": "esm import",
+              "userRequest": "@emotion/memoize"
+            }
+          ],
+          "assets": []
+        },
+        {
+          "type": "module",
+          "moduleType": "javascriptx",
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react\\cjs\\react-jsx-runtime.production.min.js",
+          "name": "./node_modules/react/cjs/react-jsx-runtime.production.min.js",
+          "id": "948",
+          "chunks": [
+            "vendor"
+          ],
+          "size": 859,
+          "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react\\jsx-runtime.js",
+          "issuerName": "./node_modules/react/jsx-runtime.js",
+          "issuerId": "192",
+          "issuerPath": [
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "name": "./src/index.jsx",
+              "id": "97"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react\\jsx-runtime.js",
+              "name": "./node_modules/react/jsx-runtime.js",
+              "id": "192"
+            }
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react\\jsx-runtime.js",
+              "moduleName": "./node_modules/react/jsx-runtime.js",
+              "moduleId": "192",
+              "type": "cjs require",
+              "userRequest": "./cjs/react-jsx-runtime.production.min.js"
+            }
+          ],
+          "assets": []
+        },
+        {
+          "type": "module",
+          "moduleType": "javascriptx",
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\@emotion\\unitless\\dist\\emotion-unitless.esm.js",
+          "name": "./node_modules/@emotion/unitless/dist/emotion-unitless.esm.js",
+          "id": "668",
+          "chunks": [
+            "vendor"
+          ],
+          "size": 924,
+          "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+          "issuerName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "issuerId": "352",
+          "issuerPath": [
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "name": "./src/index.jsx",
+              "id": "97"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+              "name": "./src/App.jsx",
+              "id": "576"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+              "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+              "id": "352"
+            }
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+              "moduleName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+              "moduleId": "352",
+              "type": "esm import",
+              "userRequest": "@emotion/unitless"
+            }
+          ],
+          "assets": []
+        },
+        {
+          "type": "module",
+          "moduleType": "javascriptx",
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+          "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "id": "352",
+          "chunks": [
+            "vendor"
+          ],
+          "size": 29378,
+          "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+          "issuerName": "./src/App.jsx",
+          "issuerId": "576",
+          "issuerPath": [
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "name": "./src/index.jsx",
+              "id": "97"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+              "name": "./src/App.jsx",
+              "id": "576"
+            }
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+              "moduleName": "./src/App.jsx",
+              "moduleId": "576",
+              "type": "esm import",
+              "userRequest": "styled-components"
+            }
+          ],
+          "assets": []
+        },
+        {
+          "type": "module",
+          "moduleType": "javascriptx",
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\@emotion\\is-prop-valid\\dist\\emotion-is-prop-valid.esm.js",
+          "name": "./node_modules/@emotion/is-prop-valid/dist/emotion-is-prop-valid.esm.js",
+          "id": "117",
+          "chunks": [
+            "vendor"
+          ],
+          "size": 4429,
+          "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+          "issuerName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "issuerId": "352",
+          "issuerPath": [
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+              "name": "./src/index.jsx",
+              "id": "97"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+              "name": "./src/App.jsx",
+              "id": "576"
+            },
+            {
+              "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+              "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+              "id": "352"
+            }
+          ],
+          "reasons": [
+            {
+              "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+              "moduleName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+              "moduleId": "352",
+              "type": "esm import",
+              "userRequest": "@emotion/is-prop-valid"
+            }
+          ],
+          "assets": []
+        }
+      ],
+      "parents": [],
+      "children": [
+        "node_modules_web-vitals_dist_web-vitals_js"
+      ],
+      "siblings": [
+        "main"
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "css",
+      "identifier": "css|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.css",
+      "name": "./src/App.css",
+      "id": "78",
+      "chunks": [
+        "main"
+      ],
+      "size": 1,
+      "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+      "issuerName": "./src/App.jsx",
+      "issuerId": "576",
+      "issuerPath": [
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+          "name": "./src/App.jsx",
+          "id": "576"
+        }
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+          "moduleName": "./src/App.jsx",
+          "moduleId": "576",
+          "type": "esm import",
+          "userRequest": "./App.css"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "type": "module",
+      "moduleType": "javascriptx",
+      "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+      "name": "./src/App.jsx",
+      "id": "576",
+      "chunks": [
+        "main"
+      ],
+      "size": 1020,
+      "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+      "issuerName": "./src/index.jsx",
+      "issuerId": "97",
+      "issuerPath": [
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97"
+        }
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "moduleName": "./src/index.jsx",
+          "moduleId": "97",
+          "type": "esm import",
+          "userRequest": "./App"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "type": "module",
+      "moduleType": "css",
+      "identifier": "css|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.css",
+      "name": "./src/index.css",
+      "id": "54",
+      "chunks": [
+        "main"
+      ],
+      "size": 1,
+      "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+      "issuerName": "./src/index.jsx",
+      "issuerId": "97",
+      "issuerPath": [
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97"
+        }
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "moduleName": "./src/index.jsx",
+          "moduleId": "97",
+          "type": "esm import",
+          "userRequest": "./index.css"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "type": "module",
+      "moduleType": "javascriptx",
+      "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+      "name": "./src/index.jsx",
+      "id": "97",
+      "chunks": [
+        "main"
+      ],
+      "size": 567,
+      "issuerPath": [],
+      "reasons": [
+        {
+          "type": "entry",
+          "userRequest": "./src/index.jsx"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "type": "module",
+      "moduleType": "javascriptx",
+      "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\reportWebVitals.js",
+      "name": "./src/reportWebVitals.js",
+      "id": "500",
+      "chunks": [
+        "main"
+      ],
+      "size": 362,
+      "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+      "issuerName": "./src/index.jsx",
+      "issuerId": "97",
+      "issuerPath": [
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97"
+        }
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "moduleName": "./src/index.jsx",
+          "moduleId": "97",
+          "type": "esm import",
+          "userRequest": "./reportWebVitals"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "type": "module",
+      "moduleType": "javascriptx",
+      "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react\\index.js",
+      "name": "./node_modules/react/index.js",
+      "id": "490",
+      "chunks": [
+        "vendor"
+      ],
+      "size": 190,
+      "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+      "issuerName": "./src/index.jsx",
+      "issuerId": "97",
+      "issuerPath": [
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97"
+        }
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+          "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "moduleId": "281",
+          "type": "cjs require",
+          "userRequest": "react"
+        },
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react\\cjs\\react-jsx-runtime.production.min.js",
+          "moduleName": "./node_modules/react/cjs/react-jsx-runtime.production.min.js",
+          "moduleId": "948",
+          "type": "cjs require",
+          "userRequest": "react"
+        },
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+          "moduleName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "moduleId": "352",
+          "type": "esm import",
+          "userRequest": "react"
+        },
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+          "moduleName": "./src/App.jsx",
+          "moduleId": "576",
+          "type": "esm import",
+          "userRequest": "react"
+        },
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "moduleName": "./src/index.jsx",
+          "moduleId": "97",
+          "type": "esm import",
+          "userRequest": "react"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "type": "module",
+      "moduleType": "javascriptx",
+      "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+      "name": "./node_modules/stylis/index.js",
+      "id": "390",
+      "chunks": [
+        "vendor"
+      ],
+      "size": 236,
+      "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+      "issuerName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+      "issuerId": "352",
+      "issuerPath": [
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+          "name": "./src/App.jsx",
+          "id": "576"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+          "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "id": "352"
+        }
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+          "moduleName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "moduleId": "352",
+          "type": "esm import",
+          "userRequest": "stylis"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "type": "module",
+      "moduleType": "javascriptx",
+      "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\index.js",
+      "name": "./node_modules/react-dom/index.js",
+      "id": "685",
+      "chunks": [
+        "vendor"
+      ],
+      "size": 1363,
+      "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\client.js",
+      "issuerName": "./node_modules/react-dom/client.js",
+      "issuerId": "22",
+      "issuerPath": [
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\client.js",
+          "name": "./node_modules/react-dom/client.js",
+          "id": "22"
+        }
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\client.js",
+          "moduleName": "./node_modules/react-dom/client.js",
+          "moduleId": "22",
+          "type": "cjs require",
+          "userRequest": "react-dom"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "type": "module",
+      "moduleType": "javascriptx",
+      "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\scheduler\\index.js",
+      "name": "./node_modules/scheduler/index.js",
+      "id": "395",
+      "chunks": [
+        "vendor"
+      ],
+      "size": 198,
+      "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+      "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuerId": "281",
+      "issuerPath": [
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\client.js",
+          "name": "./node_modules/react-dom/client.js",
+          "id": "22"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\index.js",
+          "name": "./node_modules/react-dom/index.js",
+          "id": "685"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "id": "281"
+        }
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+          "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "moduleId": "281",
+          "type": "cjs require",
+          "userRequest": "scheduler"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "type": "module",
+      "moduleType": "javascriptx",
+      "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Enum.js",
+      "name": "./node_modules/stylis/src/Enum.js",
+      "id": "589",
+      "chunks": [
+        "vendor"
+      ],
+      "size": 623,
+      "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+      "issuerName": "./node_modules/stylis/index.js",
+      "issuerId": "390",
+      "issuerPath": [
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+          "name": "./src/App.jsx",
+          "id": "576"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+          "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "id": "352"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+          "name": "./node_modules/stylis/index.js",
+          "id": "390"
+        }
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+          "moduleName": "./node_modules/stylis/index.js",
+          "moduleId": "390",
+          "type": "esm export",
+          "userRequest": "./src/Enum.js"
+        },
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Middleware.js",
+          "moduleName": "./node_modules/stylis/src/Middleware.js",
+          "moduleId": "123",
+          "type": "esm import",
+          "userRequest": "./Enum.js"
+        },
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Parser.js",
+          "moduleName": "./node_modules/stylis/src/Parser.js",
+          "moduleId": "598",
+          "type": "esm import",
+          "userRequest": "./Enum.js"
+        },
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Prefixer.js",
+          "moduleName": "./node_modules/stylis/src/Prefixer.js",
+          "moduleId": "645",
+          "type": "esm import",
+          "userRequest": "./Enum.js"
+        },
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Serializer.js",
+          "moduleName": "./node_modules/stylis/src/Serializer.js",
+          "moduleId": "466",
+          "type": "esm import",
+          "userRequest": "./Enum.js"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "type": "module",
+      "moduleType": "javascriptx",
+      "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\client.js",
+      "name": "./node_modules/react-dom/client.js",
+      "id": "22",
+      "chunks": [
+        "vendor"
+      ],
+      "size": 619,
+      "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+      "issuerName": "./src/index.jsx",
+      "issuerId": "97",
+      "issuerPath": [
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97"
+        }
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "moduleName": "./src/index.jsx",
+          "moduleId": "97",
+          "type": "esm import",
+          "userRequest": "react-dom/client"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/esm",
+      "identifier": "javascript/esm|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\tslib\\tslib.es6.mjs",
+      "name": "./node_modules/tslib/tslib.es6.mjs",
+      "id": "647",
+      "chunks": [
+        "vendor"
+      ],
+      "size": 14546,
+      "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+      "issuerName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+      "issuerId": "352",
+      "issuerPath": [
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+          "name": "./src/App.jsx",
+          "id": "576"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+          "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "id": "352"
+        }
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+          "moduleName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "moduleId": "352",
+          "type": "esm import",
+          "userRequest": "tslib"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "type": "module",
+      "moduleType": "javascriptx",
+      "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react\\jsx-runtime.js",
+      "name": "./node_modules/react/jsx-runtime.js",
+      "id": "192",
+      "chunks": [
+        "vendor"
+      ],
+      "size": 214,
+      "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+      "issuerName": "./src/index.jsx",
+      "issuerId": "97",
+      "issuerPath": [
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97"
+        }
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+          "moduleName": "./src/App.jsx",
+          "moduleId": "576",
+          "type": "esm import",
+          "userRequest": "react/jsx-runtime"
+        },
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "moduleName": "./src/index.jsx",
+          "moduleId": "97",
+          "type": "esm import",
+          "userRequest": "react/jsx-runtime"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "type": "module",
+      "moduleType": "javascriptx",
+      "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Parser.js",
+      "name": "./node_modules/stylis/src/Parser.js",
+      "id": "598",
+      "chunks": [
+        "vendor"
+      ],
+      "size": 5718,
+      "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+      "issuerName": "./node_modules/stylis/index.js",
+      "issuerId": "390",
+      "issuerPath": [
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+          "name": "./src/App.jsx",
+          "id": "576"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+          "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "id": "352"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+          "name": "./node_modules/stylis/index.js",
+          "id": "390"
+        }
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+          "moduleName": "./node_modules/stylis/index.js",
+          "moduleId": "390",
+          "type": "esm export",
+          "userRequest": "./src/Parser.js"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "type": "module",
+      "moduleType": "javascriptx",
+      "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\shallowequal\\index.js",
+      "name": "./node_modules/shallowequal/index.js",
+      "id": "572",
+      "chunks": [
+        "vendor"
+      ],
+      "size": 979,
+      "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+      "issuerName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+      "issuerId": "352",
+      "issuerPath": [
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+          "name": "./src/App.jsx",
+          "id": "576"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+          "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "id": "352"
+        }
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+          "moduleName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "moduleId": "352",
+          "type": "esm import",
+          "userRequest": "shallowequal"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "type": "module",
+      "moduleType": "javascriptx",
+      "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Utility.js",
+      "name": "./node_modules/stylis/src/Utility.js",
+      "id": "763",
+      "chunks": [
+        "vendor"
+      ],
+      "size": 2055,
+      "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+      "issuerName": "./node_modules/stylis/index.js",
+      "issuerId": "390",
+      "issuerPath": [
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+          "name": "./src/App.jsx",
+          "id": "576"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+          "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "id": "352"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+          "name": "./node_modules/stylis/index.js",
+          "id": "390"
+        }
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+          "moduleName": "./node_modules/stylis/index.js",
+          "moduleId": "390",
+          "type": "esm export",
+          "userRequest": "./src/Utility.js"
+        },
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Middleware.js",
+          "moduleName": "./node_modules/stylis/src/Middleware.js",
+          "moduleId": "123",
+          "type": "esm import",
+          "userRequest": "./Utility.js"
+        },
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Parser.js",
+          "moduleName": "./node_modules/stylis/src/Parser.js",
+          "moduleId": "598",
+          "type": "esm import",
+          "userRequest": "./Utility.js"
+        },
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Prefixer.js",
+          "moduleName": "./node_modules/stylis/src/Prefixer.js",
+          "moduleId": "645",
+          "type": "esm import",
+          "userRequest": "./Utility.js"
+        },
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Serializer.js",
+          "moduleName": "./node_modules/stylis/src/Serializer.js",
+          "moduleId": "466",
+          "type": "esm import",
+          "userRequest": "./Utility.js"
+        },
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Tokenizer.js",
+          "moduleName": "./node_modules/stylis/src/Tokenizer.js",
+          "moduleId": "325",
+          "type": "esm import",
+          "userRequest": "./Utility.js"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "type": "module",
+      "moduleType": "javascriptx",
+      "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Prefixer.js",
+      "name": "./node_modules/stylis/src/Prefixer.js",
+      "id": "645",
+      "chunks": [
+        "vendor"
+      ],
+      "size": 6518,
+      "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+      "issuerName": "./node_modules/stylis/index.js",
+      "issuerId": "390",
+      "issuerPath": [
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+          "name": "./src/App.jsx",
+          "id": "576"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+          "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "id": "352"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+          "name": "./node_modules/stylis/index.js",
+          "id": "390"
+        }
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+          "moduleName": "./node_modules/stylis/index.js",
+          "moduleId": "390",
+          "type": "esm export",
+          "userRequest": "./src/Prefixer.js"
+        },
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Middleware.js",
+          "moduleName": "./node_modules/stylis/src/Middleware.js",
+          "moduleId": "123",
+          "type": "esm import",
+          "userRequest": "./Prefixer.js"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "type": "module",
+      "moduleType": "javascriptx",
+      "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Tokenizer.js",
+      "name": "./node_modules/stylis/src/Tokenizer.js",
+      "id": "325",
+      "chunks": [
+        "vendor"
+      ],
+      "size": 4723,
+      "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+      "issuerName": "./node_modules/stylis/index.js",
+      "issuerId": "390",
+      "issuerPath": [
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+          "name": "./src/App.jsx",
+          "id": "576"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+          "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "id": "352"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+          "name": "./node_modules/stylis/index.js",
+          "id": "390"
+        }
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+          "moduleName": "./node_modules/stylis/index.js",
+          "moduleId": "390",
+          "type": "esm export",
+          "userRequest": "./src/Tokenizer.js"
+        },
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Middleware.js",
+          "moduleName": "./node_modules/stylis/src/Middleware.js",
+          "moduleId": "123",
+          "type": "esm import",
+          "userRequest": "./Tokenizer.js"
+        },
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Parser.js",
+          "moduleName": "./node_modules/stylis/src/Parser.js",
+          "moduleId": "598",
+          "type": "esm import",
+          "userRequest": "./Tokenizer.js"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "type": "module",
+      "moduleType": "javascriptx",
+      "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Middleware.js",
+      "name": "./node_modules/stylis/src/Middleware.js",
+      "id": "123",
+      "chunks": [
+        "vendor"
+      ],
+      "size": 3113,
+      "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+      "issuerName": "./node_modules/stylis/index.js",
+      "issuerId": "390",
+      "issuerPath": [
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+          "name": "./src/App.jsx",
+          "id": "576"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+          "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "id": "352"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+          "name": "./node_modules/stylis/index.js",
+          "id": "390"
+        }
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+          "moduleName": "./node_modules/stylis/index.js",
+          "moduleId": "390",
+          "type": "esm export",
+          "userRequest": "./src/Middleware.js"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "type": "module",
+      "moduleType": "javascriptx",
+      "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Serializer.js",
+      "name": "./node_modules/stylis/src/Serializer.js",
+      "id": "466",
+      "chunks": [
+        "vendor"
+      ],
+      "size": 1119,
+      "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+      "issuerName": "./node_modules/stylis/index.js",
+      "issuerId": "390",
+      "issuerPath": [
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+          "name": "./src/App.jsx",
+          "id": "576"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+          "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "id": "352"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+          "name": "./node_modules/stylis/index.js",
+          "id": "390"
+        }
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\index.js",
+          "moduleName": "./node_modules/stylis/index.js",
+          "moduleId": "390",
+          "type": "esm export",
+          "userRequest": "./src/Serializer.js"
+        },
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\stylis\\src\\Middleware.js",
+          "moduleName": "./node_modules/stylis/src/Middleware.js",
+          "moduleId": "123",
+          "type": "esm import",
+          "userRequest": "./Serializer.js"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "type": "module",
+      "moduleType": "javascriptx",
+      "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\web-vitals\\dist\\web-vitals.js",
+      "name": "./node_modules/web-vitals/dist/web-vitals.js",
+      "id": "819",
+      "chunks": [
+        "node_modules_web-vitals_dist_web-vitals_js"
+      ],
+      "size": 4355,
+      "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\reportWebVitals.js",
+      "issuerName": "./src/reportWebVitals.js",
+      "issuerId": "500",
+      "issuerPath": [
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\reportWebVitals.js",
+          "name": "./src/reportWebVitals.js",
+          "id": "500"
+        }
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\reportWebVitals.js",
+          "moduleName": "./src/reportWebVitals.js",
+          "moduleId": "500",
+          "type": "dynamic import",
+          "userRequest": "web-vitals"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "type": "module",
+      "moduleType": "javascriptx",
+      "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react\\cjs\\react.production.min.js",
+      "name": "./node_modules/react/cjs/react.production.min.js",
+      "id": "365",
+      "chunks": [
+        "vendor"
+      ],
+      "size": 6913,
+      "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react\\index.js",
+      "issuerName": "./node_modules/react/index.js",
+      "issuerId": "490",
+      "issuerPath": [
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react\\index.js",
+          "name": "./node_modules/react/index.js",
+          "id": "490"
+        }
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react\\index.js",
+          "moduleName": "./node_modules/react/index.js",
+          "moduleId": "490",
+          "type": "cjs require",
+          "userRequest": "./cjs/react.production.min.js"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "type": "module",
+      "moduleType": "javascriptx",
+      "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+      "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+      "id": "281",
+      "chunks": [
+        "vendor"
+      ],
+      "size": 131737,
+      "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\index.js",
+      "issuerName": "./node_modules/react-dom/index.js",
+      "issuerId": "685",
+      "issuerPath": [
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\client.js",
+          "name": "./node_modules/react-dom/client.js",
+          "id": "22"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\index.js",
+          "name": "./node_modules/react-dom/index.js",
+          "id": "685"
+        }
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\index.js",
+          "moduleName": "./node_modules/react-dom/index.js",
+          "moduleId": "685",
+          "type": "cjs require",
+          "userRequest": "./cjs/react-dom.production.min.js"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "type": "module",
+      "moduleType": "javascriptx",
+      "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\scheduler\\cjs\\scheduler.production.min.js",
+      "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+      "id": "366",
+      "chunks": [
+        "vendor"
+      ],
+      "size": 4235,
+      "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\scheduler\\index.js",
+      "issuerName": "./node_modules/scheduler/index.js",
+      "issuerId": "395",
+      "issuerPath": [
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\client.js",
+          "name": "./node_modules/react-dom/client.js",
+          "id": "22"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\index.js",
+          "name": "./node_modules/react-dom/index.js",
+          "id": "685"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react-dom\\cjs\\react-dom.production.min.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "id": "281"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\scheduler\\index.js",
+          "name": "./node_modules/scheduler/index.js",
+          "id": "395"
+        }
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\scheduler\\index.js",
+          "moduleName": "./node_modules/scheduler/index.js",
+          "moduleId": "395",
+          "type": "cjs require",
+          "userRequest": "./cjs/scheduler.production.min.js"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "type": "module",
+      "moduleType": "javascriptx",
+      "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\@emotion\\memoize\\dist\\emotion-memoize.esm.js",
+      "name": "./node_modules/@emotion/memoize/dist/emotion-memoize.esm.js",
+      "id": "702",
+      "chunks": [
+        "vendor"
+      ],
+      "size": 202,
+      "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\@emotion\\is-prop-valid\\dist\\emotion-is-prop-valid.esm.js",
+      "issuerName": "./node_modules/@emotion/is-prop-valid/dist/emotion-is-prop-valid.esm.js",
+      "issuerId": "117",
+      "issuerPath": [
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+          "name": "./src/App.jsx",
+          "id": "576"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+          "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "id": "352"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\@emotion\\is-prop-valid\\dist\\emotion-is-prop-valid.esm.js",
+          "name": "./node_modules/@emotion/is-prop-valid/dist/emotion-is-prop-valid.esm.js",
+          "id": "117"
+        }
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\@emotion\\is-prop-valid\\dist\\emotion-is-prop-valid.esm.js",
+          "moduleName": "./node_modules/@emotion/is-prop-valid/dist/emotion-is-prop-valid.esm.js",
+          "moduleId": "117",
+          "type": "esm import",
+          "userRequest": "@emotion/memoize"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "type": "module",
+      "moduleType": "javascriptx",
+      "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react\\cjs\\react-jsx-runtime.production.min.js",
+      "name": "./node_modules/react/cjs/react-jsx-runtime.production.min.js",
+      "id": "948",
+      "chunks": [
+        "vendor"
+      ],
+      "size": 859,
+      "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react\\jsx-runtime.js",
+      "issuerName": "./node_modules/react/jsx-runtime.js",
+      "issuerId": "192",
+      "issuerPath": [
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react\\jsx-runtime.js",
+          "name": "./node_modules/react/jsx-runtime.js",
+          "id": "192"
+        }
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\react\\jsx-runtime.js",
+          "moduleName": "./node_modules/react/jsx-runtime.js",
+          "moduleId": "192",
+          "type": "cjs require",
+          "userRequest": "./cjs/react-jsx-runtime.production.min.js"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "type": "module",
+      "moduleType": "javascriptx",
+      "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\@emotion\\unitless\\dist\\emotion-unitless.esm.js",
+      "name": "./node_modules/@emotion/unitless/dist/emotion-unitless.esm.js",
+      "id": "668",
+      "chunks": [
+        "vendor"
+      ],
+      "size": 924,
+      "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+      "issuerName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+      "issuerId": "352",
+      "issuerPath": [
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+          "name": "./src/App.jsx",
+          "id": "576"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+          "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "id": "352"
+        }
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+          "moduleName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "moduleId": "352",
+          "type": "esm import",
+          "userRequest": "@emotion/unitless"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "type": "module",
+      "moduleType": "javascriptx",
+      "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+      "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+      "id": "352",
+      "chunks": [
+        "vendor"
+      ],
+      "size": 29378,
+      "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+      "issuerName": "./src/App.jsx",
+      "issuerId": "576",
+      "issuerPath": [
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+          "name": "./src/App.jsx",
+          "id": "576"
+        }
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+          "moduleName": "./src/App.jsx",
+          "moduleId": "576",
+          "type": "esm import",
+          "userRequest": "styled-components"
+        }
+      ],
+      "assets": []
+    },
+    {
+      "type": "module",
+      "moduleType": "javascriptx",
+      "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\@emotion\\is-prop-valid\\dist\\emotion-is-prop-valid.esm.js",
+      "name": "./node_modules/@emotion/is-prop-valid/dist/emotion-is-prop-valid.esm.js",
+      "id": "117",
+      "chunks": [
+        "vendor"
+      ],
+      "size": 4429,
+      "issuer": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+      "issuerName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+      "issuerId": "352",
+      "issuerPath": [
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\index.jsx",
+          "name": "./src/index.jsx",
+          "id": "97"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\src\\App.jsx",
+          "name": "./src/App.jsx",
+          "id": "576"
+        },
+        {
+          "identifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+          "name": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "id": "352"
+        }
+      ],
+      "reasons": [
+        {
+          "moduleIdentifier": "javascriptx|C:\\Users\\smigi\\Documents\\GitHub\\rspack-test\\node_modules\\styled-components\\dist\\styled-components.browser.esm.js",
+          "moduleName": "./node_modules/styled-components/dist/styled-components.browser.esm.js",
+          "moduleId": "352",
+          "type": "esm import",
+          "userRequest": "@emotion/is-prop-valid"
+        }
+      ],
+      "assets": []
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "name": "main",
+      "assets": [
+        {
+          "name": "vendor.js",
+          "size": 178362
+        },
+        {
+          "name": "main.js",
+          "size": 6944
+        },
+        {
+          "name": "main.css",
+          "size": 786
+        }
+      ],
+      "chunks": [
+        "vendor",
+        "main"
+      ],
+      "assetsSize": 186092
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "assets": [
+        {
+          "name": "vendor.js",
+          "size": 178362
+        },
+        {
+          "name": "main.js",
+          "size": 6944
+        },
+        {
+          "name": "main.css",
+          "size": 786
+        }
+      ],
+      "chunks": [
+        "vendor",
+        "main"
+      ],
+      "assetsSize": 186092
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0
+}
